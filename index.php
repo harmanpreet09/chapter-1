@@ -1,7 +1,9 @@
 <?php 
-$name  = 'Harman Preet Kaur';
-$name='shyam';
-$price = 2;
+$nutrition=[
+  'fat' => 16,
+  'sugar' => 51,
+'salt' => 6.3,
+];
 ?>
 <!DOCTYPE html>
 <html>
