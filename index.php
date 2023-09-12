@@ -13,8 +13,9 @@ $nutrition=[
   </head>
   <body>
     <h1>The Candy Store</h1>
-    <h2>Welcome <?php echo $name; ?></h2>
-    <p>The cost of your candy is 
-       $<?php echo $price; ?> per pack.</p>
+    <h2>Nutrition (per 100g)</h2>
+    <p>Fat:  <?php echo $nutrition['fat']; ?>%</p>
+    <p>sugar:  <?php echo $nutrition['sugar']; ?>%</p>
+    <p>salt:  <?php echo $nutrition['salt']; ?>%</p>
   </body>
 </html>
