@@ -1,6 +1,6 @@
 <?php 
 $name  = 'Harman Preet Kaur';
-$name="shyam";
+$name='shyam';
 $price = 2;
 ?>
 <!DOCTYPE html>
