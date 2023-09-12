@@ -1,9 +1,6 @@
 <?php 
-$nutrition=[
-  'fat' => 16,
-  'sugar' => 51,
-'salt' => 6.3,
-'protein'=>2.3,
+$best_sellers=[
+  'Chocolate' , 'Mints' , 'Fudge' , 'Bubble gum' , 'Toffee' , 'jelly beans' ,
 ];
 ?>
 <!DOCTYPE html>
