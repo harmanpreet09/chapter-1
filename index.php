@@ -1,12 +1,11 @@
 <?php 
-$nutrition=[
-  'fat' => 38,
-  'sugar'=> 51,
-  'salt'=>0.25,
-];
-$nutrition['fat'] =36;
-$nutrition['fiber']= 2.1;
-$nutrition['protien']=7.3;
+$offers=[
+  ['name' => 'toffee' , 'price' => 5, 'stock'=>120,],
+  ['name' => 'Mints' , 'price' => 3, 'stock'=>66,],
+  ['name' => 'Fudge' , 'price' => 4, 'stock'=>97,],
+]
+;
+
 ?>
 <!DOCTYPE html>
 <html>
