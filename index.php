@@ -1,30 +1,20 @@
 <?php 
-$items =8;
-$cost= 10;
-$subtotal=$cost * $items;
-$tax = ($subtotal /100) * 20;
-$total= $subtotal + $tax;
+$prefix = 'Thank you';
+$name = 'ivy';
+$message = $prefix . ' , ' . $name;
 ;
 
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Echo Shorthand</title>
+    <title>string Operator</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>The Candy Store</h1>
-    <h2>Shopping Cart</h2>
-    <p>Items: <?= $items ?>
-    </p>
-    <p>cost per pack: $<?= $cost ?>
-    </p>
-    <p>Subtotal: $<?= $subtotal ?>
-    </p>
-    <p>Tax: $<?= $tax ?>
-    <p>Total: $<?= $total ?>
-    </p>
+    <h2><?= $name ?>'s Order</h2>
+    <p><?= $message ?></p>
    
   </body>
 </html>
