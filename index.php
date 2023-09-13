@@ -1,10 +1,6 @@
 <?php 
-$offers=[
-  ['name' => 'toffee' , 'price' => 5, 'stock'=>120,],
-  ['name' => 'Mints' , 'price' => 3, 'stock'=>66,],
-  ['name' => 'Fudge' , 'price' => 4, 'stock'=>97,],
-  ['name' => 'chocolate' , 'price' => 2, 'stock'=>83,],
-]
+$name= 'Harman Preet Kaur';
+$favorites=['Chocolate' , 'Toffee' , 'Fudge']
 ;
 
 ?>
