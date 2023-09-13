@@ -1,4 +1,4 @@
 # chapter-1
--Harman preet kaur
+- Harman preet kaur
 
-https://github.com/harmanpreet09/chapter-1.git
+- https://github.com/harmanpreet09/chapter-1.git
